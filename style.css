@@ -1,0 +1,417 @@
+
+
+
+
+
+/*   nav bar Starting   */
+.navbar-brand{
+    background: linear-gradient(135deg,white,crimson,rgb(241, 214, 214));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+    background-clip: text;
+    font-size: x-large;
+    background-color: rgb(240, 255, 244);
+
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+section {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+/*--------nav-Bar Ending----------*/
+
+
+/*--------Home Starting----------*/
+.image{
+    background-image: url("coffee-1283672_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    
+    min-height: 100vh;
+}
+
+.homebox{
+    margin-top: 25%;
+    margin-right: 30%;
+    margin-left: 3%;
+    
+    
+}
+    
+.homebox .text-1{
+    
+    font-size: 180%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.homebox .text-2{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    font-weight: 500;
+}
+.homebox .text-2 span{
+    background: linear-gradient(135deg,rgb(2, 251, 19),rgb(247, 116, 8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+    background-clip: text;
+    font-size: 120%;
+    
+}
+.btn {
+    display: inline-block;
+    background: #1e3551;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #1e3551;
+    transition: all 0.3s ease;
+    margin-bottom: 6%;
+}
+  
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    color: white;
+}
+  
+.btn:hover span {
+    padding-right: 25px;
+    color: white;
+}
+  
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+ }
+/*.btn{
+    background-color: rgb(62, 87, 109);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: x-large;
+    margin-bottom: 6%;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(241, 6, 6);
+
+}*/
+/*-------- Home Ending----------*/
+
+
+/*--------About Starting----------*/
+.about{
+    
+    background-color: whitesmoke;
+}
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+.title{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 6%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.para{
+   
+    font-size: larger;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.button {
+    display: inline-block;
+    background: #1e3551;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #1e3551;
+    transition: all 0.3s ease;
+    margin-bottom: 6%;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+ }
+/*--------About Ending----------*/
+
+
+
+/*--------Skill Starting----------*/
+.skill{
+   
+    background-color:azure;
+}
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0%;
+    justify-content: center;
+    padding-bottom: 10%;
+   
+}   
+.skillcard{
+    height: 520px; ;
+    width: 400px;
+    margin: 2%;
+    justify-content: center;
+    background-color: #fff;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;  
+}
+.skillcard:hover {
+    box-shadow: 5px 5px 4px #888888;
+    -webkit-box-shadow:  2px 4px 21px 0px rgba(201, 44, 201, 0.75);
+    -moz-box-shadow:  2px 4px 21px 0px rgba(230, 8, 230, 0.75);
+    box-shadow:  2px 4px 21px 0px rgba(148,133,148,0.75);
+    background-color: rgba(235, 43, 43, 0.281);
+}
+.img-cls1{
+    height: 350px;
+    width: 100%;
+
+}
+.img-cls{
+    height: 350px;
+    width: 100%;
+}
+.skil-head{
+    padding-left: 30%;
+    color: darkslategray;
+    text-shadow: rgb(170, 170, 170) 4px 4px 4px;
+}
+.skill-row{
+    padding-top: 5%;
+    text-align: center;
+    text-shadow: rgb(170, 170, 170) 4px 4px 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------Skill Ending----------*/
+
+
+
+/*--------Project Starting----------*/
+.project{
+    
+    background-color: whitesmoke;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-left: 9%;
+    
+  }
+  
+  .projcard {
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background: white;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 3%;
+    margin-bottom: 8%;
+  }
+  .projcard:hover {
+    transform: translateY(20px);
+  }
+  .projcard:hover:before {
+    opacity: 1;
+  }
+  .projcard:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .projcard:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .projcard img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+  }
+  .projcard .info {
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+  }
+  .projcard .info h1 {
+    margin: 0px;
+    color: red;
+  }
+  .projcard .info p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    color: gold;
+  }
+  .projcard .info .projbutton {
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+  }
+  .projcard .info .projbutton:hover {
+    background: dodgerblue;
+    color: white;
+  }
+
+  /*--------Project Ending----------*/
+
+
+
+
+  /*--------Contact Starting----------*/
+.contact{
+    
+   
+    background: radial-gradient(#e1efff, white);
+    
+}
+.contact-container{
+   
+    margin-left: 20%;
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center; 
+     
+}
+.icons{
+    margin: 10px 0;
+}
+.text{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.contact-info{
+    margin-top: 3%;
+    padding-top: 2%;
+    display: flex;
+}
+.row{
+    padding-left: 5%;
+}
+.head{
+    font-weight: 500;
+    color: #000;
+}
+.sub-title{
+    text-decoration: none;
+    color: #333;
+}
+.contact-container .social-menu{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.contact-container .social-menu .social-icons{
+    padding-right: 6%;
+    display: flex;
+}
+.contact-container .social-menu .social-icons :hover{
+    color: #000;
+    text-shadow: #888888;
+    transform: translate(-8%, -8%);
+    transition: 0.6s;
+    position: relative;
+    display: block;
+}
+
+/*--------contact Ending----------*/
